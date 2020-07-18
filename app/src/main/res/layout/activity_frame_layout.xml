@@ -29,7 +29,7 @@
         android:layout_width="140dp"
         android:layout_height="200dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="510dp"
+        android:layout_marginTop="400dp"
         android:text="button 3"
         android:background="#03A9F4"/>
 
