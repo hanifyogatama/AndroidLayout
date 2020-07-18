@@ -6,9 +6,40 @@
     android:layout_height="match_parent"
     tools:context=".RelativeLayoutActivity">
 
-    <TextView
+  <Button
+      android:id="@+id/pusat"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="titik pusat"
+      android:layout_centerInParent="true"/>
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="relative layout"/>
+        android:text="kiri"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/pusat" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kanan"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/pusat"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/pusat"
+        android:text="atas"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bawah"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/pusat"/>
+
 
 </RelativeLayout>
