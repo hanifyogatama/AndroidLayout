@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnMainToLinear"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="Linear Layout"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnMainToGrid"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="Grid Layout"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnMainToFrame"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="Frame Layout"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnMainToRelative"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="Relative Layout"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnMainToTable"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="Table Layout"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnMainToConstraint"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="Constraint Layout"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnMainToCard"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="Card View"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
